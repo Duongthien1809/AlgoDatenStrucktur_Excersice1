@@ -3,7 +3,7 @@ package TD.HTW.Algorithmus;
 import java.util.ArrayList;
 
 public class SieveEratosthenesAlgorithm {
-    public ArrayList<Integer> primes(int number) {
+    public ArrayList<Integer> primes(int number) throws IllegalArgumentException{
         if (number < 0) {
             throw new NumberFormatException("Primzahl darf nicht negativ sein");
         }

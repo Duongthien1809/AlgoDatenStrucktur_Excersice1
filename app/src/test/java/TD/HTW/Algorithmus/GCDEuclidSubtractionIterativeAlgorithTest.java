@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class GCDEuclidDivisionRestRecursiveAlgorithmTest {
+public class GCDEuclidSubtractionIterativeAlgorithTest {
     GCDEuclidDivisionRestRecursiveAlgorithm t;
 
     @Before
@@ -22,5 +22,4 @@ public class GCDEuclidDivisionRestRecursiveAlgorithmTest {
     public void NegativEingabe() {
         assertThrows(IllegalArgumentException.class, () -> t.calc(-1, -2));
     }
-
 }

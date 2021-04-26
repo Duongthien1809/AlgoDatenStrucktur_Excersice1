@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class GCDEuclidDivisionRestRecursiveAlgorithmTest {
+public class GCDEuclidSubtractionRecursiveAlgorithTest {
     GCDEuclidDivisionRestRecursiveAlgorithm t;
 
     @Before

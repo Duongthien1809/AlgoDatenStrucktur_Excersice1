@@ -8,7 +8,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void TestApp() {
+    //diese Test Klasse soll nicht getestet werden
 
-    }
 }

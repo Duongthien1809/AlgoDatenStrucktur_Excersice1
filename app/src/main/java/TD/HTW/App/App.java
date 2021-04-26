@@ -16,9 +16,7 @@ public class App {
         LinkedList<ICommand> commands = cmdFactory.returnsCommands();
 
         do {
-
-
-            printCLIOptions(console, commands);
+            printCLIOptions(commands);
             ICommand cmd = selectCLIOption(console, commands);
             cmd.execute();
         } while (true);
@@ -37,7 +35,7 @@ public class App {
         return idx >= min && idx < max;
     }
 
-    private static void printCLIOptions(IConsole console, LinkedList<ICommand> cmds) {
+    private static void printCLIOptions(LinkedList<ICommand> cmds) {
         System.out.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \ntest\n\n");
         for (int i = 1; i < cmds.size(); i++) {
             System.out.println(i + ". " + cmds.get(i));
