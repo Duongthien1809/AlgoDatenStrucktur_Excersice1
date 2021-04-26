@@ -27,9 +27,13 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'TD.HTW.App'
+    mainClass = 'TD.HTW.App.App'
 }
-test {
-    useJUnitPlatform()
+
+test{
+    useJUnit()
+}
+run {
+    standardInput = System.in
 }
 
