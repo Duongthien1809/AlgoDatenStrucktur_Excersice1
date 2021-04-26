@@ -36,7 +36,7 @@ public class App {
     }
 
     private static void printCLIOptions(LinkedList<ICommand> cmds) {
-        System.out.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \ntest\n\n");
+        System.out.printf("Algorithmus Excersice 1\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tThien Duong, S0577508\n\n");
         for (int i = 1; i < cmds.size(); i++) {
             System.out.println(i + ". " + cmds.get(i));
         }

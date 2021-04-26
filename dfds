@@ -1,0 +1,29 @@
+[33mcommit 40cae465e9213c03d21c0f06f0c81122420db3c3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ThienDuong <duongthien1809@gmail.com>
+Date:   Mon Apr 26 22:59:56 2021 +0200
+
+    Junit Test für alle Algorithmus durchführen
+
+[33mcommit dda0106ce88f881002aa062b911773c230968467[m
+Author: ThienDuong <duongthien1809@gmail.com>
+Date:   Mon Apr 26 21:33:16 2021 +0200
+
+    add Junit test and fixt test Fehler
+
+[33mcommit 64437e4f17cae80330dee971f22784dd69dadc90[m
+Author: ThienDuong <duongthien1809@gmail.com>
+Date:   Mon Apr 26 15:06:08 2021 +0200
+
+    GCDEuclidDivisionRestRecursiveAlgorithmTest Junit Methode hinzufügen
+
+[33mcommit 939f0540336e9ead38b72b453748346ff1ed1998[m
+Author: ThienDuong <duongthien1809@gmail.com>
+Date:   Sun Apr 25 14:42:39 2021 +0200
+
+    AppTest name ändern
+
+[33mcommit c9cb26d13ba63228622a19169ba3a33d9c54d3ba[m
+Author: ThienDuong <duongthien1809@gmail.com>
+Date:   Sun Apr 25 14:37:32 2021 +0200
+
+    Excersice1 mit funktionfähige Junit
