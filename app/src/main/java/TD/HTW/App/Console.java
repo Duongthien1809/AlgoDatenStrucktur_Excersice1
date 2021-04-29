@@ -2,6 +2,8 @@ package TD.HTW.App;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Console implements IConsole {
 
@@ -18,7 +20,7 @@ public class Console implements IConsole {
                 return num;
             } catch (InputMismatchException e) {
                 System.err.println("Wrong input! Input only integer number allowed!");
-                in.nextLine();
+                in.nextInt();
             }
         }
     }
@@ -26,8 +28,9 @@ public class Console implements IConsole {
     @Override
     public String readString(String text) {
         System.out.print(text);
-        String txt =  in.next();
+        String txt = in.nextLine();
         return txt;
+
     }
 
     @Override

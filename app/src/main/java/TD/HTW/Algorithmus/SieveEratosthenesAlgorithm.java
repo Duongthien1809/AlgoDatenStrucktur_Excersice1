@@ -23,9 +23,7 @@ public class SieveEratosthenesAlgorithm {
                 //setzt auf false
                 for (int j = i * i; j <= number; j += i) {
                     pPrimzahl[j] = false;
-                    if (pPrimzahl[j] == true) {
 
-                    }
                 }
             }
         }
